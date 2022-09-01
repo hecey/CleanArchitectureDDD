@@ -1,0 +1,23 @@
+📦BuberDinner.Api
+ ┣ 📂Controllers
+ ┃ ┗ 📜AuthenticationController.cs
+ ┗ 📜Program.cs
+
+📦BuberDinner.Application
+ ┣ 📂Services
+ ┃ ┗ 📂Authentication
+ ┃ ┃ ┣ 📜AuthenticationResult.cs
+ ┃ ┃ ┣ 📜AuthenticationService.cs
+ ┃ ┃ ┗ 📜IAuthenticationService.cs
+ ┗ 📜DependencyInjection.cs
+
+📦BuberDinner.Contracts
+ ┣ 📂Authentication
+ ┃ ┣ 📜AuthenticationResponse.cs
+ ┃ ┣ 📜LoginRequest.cs
+ ┃ ┗ 📜RegisterRequest.cs
+
+📦BuberDinner.Domain
+
+📦BuberDinner.Infrastructure
+ ┗ 📜DependencyInjection.cs
